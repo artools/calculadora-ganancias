@@ -61,14 +61,13 @@ $(document).ready(function() {
         })
     })
 });
-var topesEscalas = [2e4, 4e4, 6e4, 8e4, 12e4, 16e4, 24e4, 32e4, 99999999],
+var topesEscalas = [25800, 51600, 77400, 103200, 154800, 206400, 309600, 412800, 99999999],
     porcentajesEscalas = [.05, .09, .12, .15, .19, .23, .27, .31, .35],
-    fijosEscalas = [1e3, 1800, 2400, 3e3, 7600, 9200, 21600, 24800],
-    MINIMO_NO_IMPONIBLE = 51967,
-    ADICIONAL_4TA_CATEGORIA = 249441.6,
-    CONYUGE = 48447,
-    HIJO = 24432,
-    TOPE_APORTES = 10896.32,
-    TOPE_JUBILADO = 407592,
+    MINIMO_NO_IMPONIBLE = 66917.91,
+    ADICIONAL_4TA_CATEGORIA = 321205.968,
+    CONYUGE = 62385.2,
+    HIJO = 31461.09,
+    TOPE_APORTES = 13926.16,
+    TOPE_JUBILADO = 407592, 
     TOPE_ALQUILER = 51967,
     TOPE_HIPOTECARIO = 20000;
