@@ -20,7 +20,7 @@ function calcular() {
     var result = calcularImpuesto(montoImponibleAplicable);
     impuestoAnual = result.value.toFixed(2), $("#impuestoAnual").text("$" + impuestoAnual);
 
-    var impuestoMensual = (impuestoAnual / 13).toFixed(2);
+    var impuestoMensual = (impuestoAnual / 12).toFixed(2);
     $("#impuestoMensual").text("$" + impuestoMensual);
     var alicuota = impuestoMensual / sueldoBruto * 100;
     $("#alicuota").text(alicuota.toFixed(2) + "%");
